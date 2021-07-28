@@ -9,7 +9,7 @@ stages:
     cmd: python process_data.py
     deps:
       - process_data.py
-      - get_data.py
+      - data_raw.csv
     outs:
       - data_processed.csv
   train:
